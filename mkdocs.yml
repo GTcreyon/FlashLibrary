@@ -5,12 +5,16 @@ nav:
     - index.md
   - Tools:
     - tools/ffdec.md
+    - tools/swf2exe.md
+    - tools/swf-unbundler.md
   - Players:
+    - players/projector.md
     - players/ruffle.md
     - players/waflash.md
-  - Super Mario 63:
-    - games/sm63/sm63.md
-    - games/sm63/tas63.md
+  - Games:
+    - Super Mario 63:
+      - About: games/sm63/sm63.md
+      - games/sm63/tas63.md
 
 theme:
   name: readthedocs
@@ -18,3 +22,6 @@ theme:
   highlightjs: true
   hljs_languages:
     - actionscript
+
+markdown_extensions:
+    - markdown.extensions.admonition
