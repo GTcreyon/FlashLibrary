@@ -5,6 +5,9 @@ nav:
     - index.md
   - Tools:
     - tools/ffdec.md
+  - Players:
+    - players/ruffle.md
+    - players/waflash.md
   - Super Mario 63:
     - games/sm63/sm63.md
     - games/sm63/tas63.md
