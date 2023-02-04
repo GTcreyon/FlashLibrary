@@ -19,5 +19,6 @@ theme:
   highlightjs: true
   hljs_languages:
     - actionscript
+
 markdown_extensions:
     - markdown.extensions.admonition

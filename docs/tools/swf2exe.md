@@ -8,9 +8,9 @@ Swf2Exe is a tool that can be used to convert SWF files into EXE files for easie
 
 ## Usage
 
-To effectively use the tool, extract the ZIP file to any folder of your choice and then open the sWf2eXe executable. Press the "Clear Input" button to removed the placeholder SWF then press the "Add a File" button and select the desired SWF.
+To use the tool, extract the ZIP file to any folder of your choice and then open the Swf2Exe executable. Press the "Clear Input" button to remove the placeholder SWF then press the "Add a File" button and select the desired SWF.
 
-Once you have added your SWF file, simply press convert, and the tool will convert the SWF to an EXE and place it in the Output folder that can be found in the same directory. 
+Once you have added your SWF file, press convert, and the tool will convert the SWF to an EXE and place it in the Output folder that can be found in the same directory. 
 
 !!! note "Tip:"
 	Optionally, you can place a custom projector in the Lib folder instead of "SA.exe" to have the EXE run in that projector. 
