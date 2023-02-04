@@ -5,6 +5,7 @@ nav:
     - index.md
   - Tools:
     - tools/ffdec.md
+    - tools/swf2exe.md
   - Players:
     - players/projector.md
     - players/ruffle.md
@@ -20,3 +21,6 @@ theme:
   highlightjs: true
   hljs_languages:
     - actionscript
+
+markdown_extensions:
+    - markdown.extensions.admonition
