@@ -1,0 +1,17 @@
+site_name: Flash Library
+
+nav:
+  - General:
+    - index.md
+  - Tools:
+    - tools/ffdec.md
+  - Super Mario 63:
+    - games/sm63/sm63.md
+    - games/sm63/tas63.md
+
+theme:
+  name: readthedocs
+  locale: en
+  highlightjs: true
+  hljs_languages:
+    - actionscript
