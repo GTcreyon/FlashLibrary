@@ -9,9 +9,10 @@ nav:
     - players/projector.md
     - players/ruffle.md
     - players/waflash.md
-  - Super Mario 63:
-    - games/sm63/sm63.md
-    - games/sm63/tas63.md
+  - Games:
+    - Super Mario 63:
+      - About: games/sm63/sm63.md
+      - games/sm63/tas63.md
 
 theme:
   name: readthedocs
