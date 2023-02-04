@@ -6,6 +6,7 @@ nav:
   - Tools:
     - tools/ffdec.md
     - tools/swf2exe.md
+    - tools/swf-unbundler.md
   - Players:
     - players/projector.md
     - players/ruffle.md
