@@ -3,6 +3,9 @@ site_name: Flash Library
 nav:
   - General:
     - index.md
+  - Info:
+    - info/swf.md
+    - info/bundle.md
   - Tools:
     - tools/ffdec.md
     - tools/swf2exe.md
