@@ -12,6 +12,7 @@ nav:
     - tools/swf-unbundler.md
   - Players:
     - players/projector.md
+    - players/flashpoint.md
     - players/ruffle.md
     - players/waflash.md
   - Games:
