@@ -6,6 +6,7 @@ nav:
   - Info:
     - info/swf.md
     - info/bundle.md
+    - info/eol.md
   - Tools:
     - tools/ffdec.md
     - tools/swf2exe.md
