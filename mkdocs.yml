@@ -3,14 +3,21 @@ site_name: Flash Library
 nav:
   - General:
     - index.md
+  - Info:
+    - info/swf.md
+    - info/bundle.md
+    - info/eol.md
   - Tools:
     - tools/ffdec.md
     - tools/swf2exe.md
     - tools/swf-unbundler.md
+    - tools/riley-swf-patcher.md
   - Players:
     - players/projector.md
+    - players/flashpoint.md
     - players/ruffle.md
     - players/waflash.md
+    - players/ngplayer.md
   - Games:
     - Super Mario 63:
       - About: games/sm63/sm63.md
