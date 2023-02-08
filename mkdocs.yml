@@ -17,6 +17,7 @@ nav:
     - players/flashpoint.md
     - players/ruffle.md
     - players/waflash.md
+    - players/ngplayer.md
   - Games:
     - Super Mario 63:
       - About: games/sm63/sm63.md
