@@ -10,6 +10,7 @@ nav:
     - tools/ffdec.md
     - tools/swf2exe.md
     - tools/swf-unbundler.md
+    - tools/riley-swf-patcher.md
   - Players:
     - players/projector.md
     - players/flashpoint.md
