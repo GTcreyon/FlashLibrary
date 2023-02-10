@@ -1,0 +1,16 @@
+.wy-nav-side, .rst-versions {
+    left:inherit;
+}
+@media screen and (max-width:768px) {
+    .wy-nav-side, .rst-versions {
+        left:-300px;
+    }
+}
+.wy-body-for-nav {
+    max-width: 1100px;
+    margin: 0 auto;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+}

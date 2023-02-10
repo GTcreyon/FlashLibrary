@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Swf2exe - Flash Library</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../extra.css" rel="stylesheet" />
+        <link href="../../center.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Swf2exe";
+        var mkdocs_page_input_path = "tools/swf2exe.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/actionscript.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Flash Library
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">General</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../..">Welcome to the Flash Library</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Info</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../info/swf/">SWF Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../info/bundle/">Executable bundles</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../info/eol/">End of Life</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tools</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../ffdec/">FFDec</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Swf2exe</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#download">Download</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../swf-unbundler/">SWF Unbundler</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../riley-swf-patcher/">Riley swf patcher</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Players</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../players/projector/">Official Projectors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../players/flashpoint/">Flashpoint</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../players/ruffle/">Ruffle</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../players/waflash/">Waflash</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../players/ngplayer/">Newgrounds Player</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Games</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Super Mario 63</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../games/sm63/sm63/">About</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../games/sm63/tas63/">TAS63</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Flash Library</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Tools &raquo;</li>
+      <li>Swf2exe</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="swf2exe">Swf2Exe</h1>
+<p>Swf2Exe is a tool that can be used to convert SWF files into EXE files for easier access. </p>
+<h2 id="download">Download</h2>
+<ul>
+<li><a href="https://cdn.discordapp.com/attachments/711545571130998846/795404822882418738/Swf2eXe_Latest.zip">Download the tool here</a></li>
+</ul>
+<h2 id="usage">Usage</h2>
+<p>To use the tool, extract the ZIP file to any folder of your choice and then open the Swf2Exe executable. Press the "Clear Input" button to remove the placeholder SWF then press the "Add a File" button and select the desired SWF.</p>
+<p>Once you have added your SWF file, press convert, and the tool will convert the SWF to an EXE and place it in the Output folder that can be found in the same directory. </p>
+<div class="admonition note">
+<p class="admonition-title">Tip:</p>
+<p>Optionally, you can place a custom projector in the Lib folder instead of "SA.exe" to have the EXE run in that projector. </p>
+</div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../ffdec/" class="btn btn-neutral float-left" title="FFDec"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../swf-unbundler/" class="btn btn-neutral float-right" title="SWF Unbundler">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../ffdec/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../swf-unbundler/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
