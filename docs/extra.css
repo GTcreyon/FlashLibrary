@@ -1,0 +1,95 @@
+.wy-side-nav-search, .wy-nav-top {
+    background: linear-gradient(0deg, #740000 0%, #ad0000 100%);
+}
+
+.wy-menu-vertical p.caption {
+    color: #d95555;
+}
+
+.wy-nav-content-wrap {
+    background: none;
+}
+
+.wy-body-for-nav {
+    background: #1d1b1b;
+}
+
+.wy-menu-vertical li.current a {
+    color: #bdbdbd;
+    background: #282525;
+    border-right: 1px solid #3d3a3a;
+}
+
+.wy-menu-vertical li.toctree-l1.current > a {
+    color: #bdbdbd;
+	border-bottom: 1px solid #3d3a3a;
+	border-top: 1px solid #3d3a3a;
+    border-right: none;
+}
+
+.wy-nav-content, li.toctree-l1.current > a {
+    background: #242222;
+}
+
+.wy-menu-vertical li.toctree-l2.current > a,
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a,
+.wy-menu-vertical li.toctree-l3.current > a,
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a
+{
+    background: #201e1e;
+}
+
+.wy-menu-vertical li.current a:hover,
+.wy-menu-vertical li.on a:hover,
+.wy-menu-vertical li.toctree-l2.current > a:hover,
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover,
+.wy-menu-vertical li.toctree-l3.current > a:hover,
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:hover
+{
+	background: #3d3a3a;
+}
+
+body {
+    color: #d9d9d9;
+}
+
+.rst-content .danger .admonition-title {
+    background: #633;
+    color: #fcc;
+}
+
+.rst-content .admonition.danger {
+    background: #433;
+    color: #fcc;
+}
+
+.rst-content .note .admonition-title {
+    background: #305070;
+    color: #bfefff;
+}
+
+.rst-content .note {
+    background: #303d4f;
+    color: #bfefff;
+}
+
+.rst-content .warning .admonition-title {
+    background: #75591b;
+    color: #ffeeaf;
+}
+
+.rst-content .warning {
+    background: #504933;
+    color: #ffeeaf;
+}
+
+input[type="text"] {
+    background-color: #242424;
+    box-shadow: none;
+    border-width: 2px;
+    color: #bdbdbd
+}
+
+.wy-side-nav-search input[type="text"] {
+    border-color: #a42424;
+}
