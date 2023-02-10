@@ -1,5 +1,11 @@
 # Waflash
 
-Waflash, or WebAssembly Flash, is a flash player written in WebAssembly. Using it is as simple as dragging and dropping an SWF file into the website.
+**Waflash** or **WebAssembly Flash** is a Flash player written in WebAssembly.
 
-You can play some demonstrative flash games alongside your local ones on the [Waflash](https://vidkidz.github.io/) website.
+## Links
+
+- [Waflash website](https://vidkidz.github.io/)
+
+## Usage
+
+Either drag an [SWF file](../info/swf.md) onto the box on the website, or select one of the demo SWFs from the menu below it.

@@ -1,6 +1,6 @@
 # TAS63
 
-TAS63 is a collective term for a set of tools allowing [tool-assisted speedruns](https://wikipedia.org/wiki/Tool-assisted_speedrun) to be performed in Super Mario 63.
+**TAS63** is a collective term for a set of tools allowing [tool-assisted speedruns](https://wikipedia.org/wiki/Tool-assisted_speedrun) to be performed in [Super Mario 63](sm63.md).
 
 ## Players
 ### TAS63Player
@@ -14,4 +14,4 @@ TAS63 is a collective term for a set of tools allowing [tool-assisted speedruns]
 
 ### tas63editor-gd
 
-[tas63editor-gd](https://github.com/GTcreyon/tas63editor-gd), or t63e-gd for short, is an input editor built in the Godot engine.
+[tas63editor-gd](https://github.com/GTcreyon/tas63editor-gd), or t63e-gd for short, is an input editor built in the Godot engine, designed to replace [TAS63Editor](#tas63editor).

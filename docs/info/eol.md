@@ -38,3 +38,7 @@ An option for this method is to use [Chromium 87](https://commondatastorage.goog
 ## Links
 
 - [Official Adobe info page](https://adobe.com/uk/products/flashplayer/end-of-life.html)
+
+## Further reading
+
+- [Section on Wikipedia](https://wikipedia.org/wiki/Adobe_Flash_Player#End_of_life)

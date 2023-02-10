@@ -1,10 +1,8 @@
-#Riley's SWF Patcher
+# Riley's SWF Patcher
 
-Riley's SWF patcher is a tool that you can use to inject ActionScript code into existing Flash games.
+**Riley's SWF patcher** is a tool that can be used to inject ActionScript code into existing Flash games.
 
-## Download
+## Links
 
-- [Download the tool here](https://github.com/rayyaw/flash-patcher)
-
-## Usage
-For up-to-date instructions on how to write and apply patches, check the latest [documentation](https://github.com/rayyaw/flash-patcher/blob/main/README.md).
+- [Patcher GitHub page](https://github.com/rayyaw/flash-patcher)
+- [Documentation](https://github.com/rayyaw/flash-patcher/blob/main/README.md)
