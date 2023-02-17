@@ -19,6 +19,7 @@ nav:
     - Super Mario 63:
       - About: games/sm63/sm63.md
       - games/sm63/tas63.md
+    - Super Mario Flash (external link): https://rayyaw.github.io/speedrun/resources/#super-mario-flash
 
 theme:
   name: readthedocs
