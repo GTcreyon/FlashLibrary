@@ -1,5 +1,7 @@
 # FFDec
 
-FFDec, short for Free Flash Decompiler and also known as JPEXS Decompiler is a multi-purpose decompilation program for SWF files.
+**FFDec**, short for **Free Flash Decompiler** and also known as **JPEXS Decompiler** is a multi-purpose decompilation program for [SWF files](../info/swf.md).
 
-It can be found on its [Github page](https://github.com/jindrapetrik/jpexs-decompiler).
+## Links
+
+- [GitHub page](https://github.com/jindrapetrik/jpexs-decompiler)

@@ -1,6 +1,6 @@
-# SWF Files
+# SWF file
 
-SWF Files, also referred to as ShockWave Flash files or Small Web Format files are files that contain Flash Player content, such as games or animations. They can be played using the [official projectors](../players/projector.md), or any other alternative player. Previously, they could be played using the Flash Player plugin, but this is now non-functional.
+An **SWF file** (also referred to as **ShockWave Flash file** or Small Web Format file) is a file that contains Flash Player content, such as games or animations. It can be played using the [official projectors](../players/projector.md), or any other alternative player. Previously, SWF files could be played using the Flash Player plugin, [but this is now non-functional](eol.md).
 
 ## See also
 
